@@ -1,0 +1,432 @@
+/***** BASE STYLES *****/
+body{
+    color: #29525E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+h1{
+    /* margin: 350px auto 0; */
+    font-family: 'Raleway', sans-serif;
+    font-weight:normal;
+    font-size: 52px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 52px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 250;
+    line-height: 68px;
+    /* margin: 50px auto 0;
+    padding: 0 300px; */
+    text-align: left;
+
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 47px;
+    margin: 50px auto 30px;
+    text-align: center;
+}
+
+h4{
+    font-size: 28px;
+    font-weight:normal;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    line-height: 36px;
+    margin: 0 auto 50px;
+}
+
+h5{
+    margin: 0 auto 20px;
+}
+
+p{
+    margin: 0 auto 20px;
+    line-height: 36px;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text-align-left{
+    text-align:left;
+}
+
+.text-align-right{
+    text-align:right;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    margin:0px auto 50px;
+    border-top: 2px solid #3F7F93;
+
+}
+
+/***** GRID *****/
+
+.full-width{
+    margin: 0 auto; /**0 for top and bottom so that our sections stack right on top of each other**/
+    overflow: auto; /** auto so that you can clear your floats**/
+    width: 1140px;
+}
+
+.half-width{
+    float: left;
+    width: 570px;  
+}
+
+.third-width{
+    float: left;
+    width: 400px;
+}
+
+.two-thirds-width{
+    float: left;
+    width: 740px;
+}
+
+.services-margin{
+    width: 550px;
+    height: 400px;
+    margin: 0 10px;
+}
+
+/***** HEADER *****/
+
+header{
+    background: #F8F6F4;
+}
+
+header .full-width{
+    /* width: 700px; */
+    border-bottom: 1px solid #006666;
+}
+
+#header-logo-nav{
+    border-bottom: 1px solid #006666;
+    padding-top: 15px;
+}
+
+header #logo{
+    float:left;
+    display:inline;
+    padding: 12px 0 0px 10px;
+}
+
+header h3{
+    float:left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 0px 0;
+    padding: 6px 0 14px 40px;
+    text-align: left;
+}
+
+header nav ul{
+    float: right;
+    list-style: none;
+    margin: 0px 0;
+    padding-bottom:12px;
+    padding-top:12px;
+}
+
+header nav ul li{
+    display:inline-block;
+}
+
+header nav ul li a{
+    font-size: 20px;
+    transition-duration: 0.4s;
+    }
+
+header nav ul li a:hover{
+    font-size: 22px;
+}
+
+header nav a{
+    color: #006666;
+    padding-right:40px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+/* #hero-background{
+    background-image: url(../img/hero-img.png);
+    background-position: right;    
+    background-repeat: none;
+    height:auto;
+} */
+
+#hero-image{
+    /* background-position: center; */
+    display: block;
+    margin-left: auto;
+    width:680px;
+    border-left: 2px solid #006666;
+}
+
+/***** SERVICES SECTION *****/
+
+.service-line{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px solid #3F7F93;
+}
+
+#row-1-design{
+    background-image: url("../img/design-row1-img.png");
+    background-size: cover;
+    margin: 0 10px;
+    width: 550px;
+}
+
+#row-2-design{
+    background-image: url("../img/design-row2-img.png");
+    background-size: cover;
+}
+
+#row-3-design{
+    background-image: url("../img/design-row3-img.png");
+    background-size: cover;
+}
+
+#row-4-design{
+    background-image: url("../img/design-row4-img.png");
+    background-size: cover;
+}
+
+#row-1-develop{
+    background-image: url("../img/develop-row1-img.png");
+    background-size: cover;
+    margin: 0 10px;
+    width: 550px;
+}
+
+#row-2-develop{
+    background-image: url("../img/develop-row2-img.png");
+    background-size: cover;
+}
+
+#row-3-develop{
+    background-image: url("../img/develop-row3-img.png");
+    background-size: cover;
+}
+
+#row-4-develop{
+    background-image: url("../img/develop-row4-img.png");
+    background-size: cover;
+}
+
+#services #design{
+/* background-image: url("../img/design-backgnd-img.png"); */
+background-size: cover; 
+/* margin: 0 20px; */
+/* Need to use box model  */
+}
+
+#services #develop{
+/* background-image: url("../img/dev-backgnd-img.png"); */
+}
+
+#services .services-description{
+    font-size: 26px;
+    text-align: center;
+    padding: 20px 135px;
+    line-height: 42px;
+}
+
+#services p{
+    text-align: center;
+    padding: 0 135px;
+}
+
+#services #consult{
+    font-size: 26px;
+    text-align: center;
+}
+
+#consult{
+    margin-bottom:40px;
+}
+
+#consult-hr{
+    margin: 20px 20px 0 20px;
+}
+
+#consult-button{
+    color: #ffffff;
+    background-color: #6B9438;
+    border-radius: 15px;
+    padding: 15px 150px;
+    transition-duration: 0.4s;
+}
+
+#consult-button:hover{
+    background-color: #5d8b29fd;
+    padding: 16px 160px;
+}
+
+#consult-button a{
+    color: #ffffff;
+    text-decoration:none;
+}
+
+/***** PORTFOLIO SECTION *****/
+
+#portfolio{
+    background: #F8F6F4;
+}
+
+#portfolio #portfolio-section{
+    border-width: 0 1px 0;
+    padding: 0px 100px 50px;
+}
+
+#portfolio .half-width{
+    margin: 0 auto 50px;     
+}
+
+#portfolio h4, #portfolio p{
+    margin-left:100px;
+}
+
+/***** ABOUT SECTION *****/
+
+#about{
+    color: #ffffff;
+    background: #087e8b;
+}
+
+#about .full-width{ /* seperating this into the full width makes it very easy to check on total section height*/
+    /* border-style:solid; */
+    border-width: 0 1px 0;
+    padding: 0px 100px 100px;
+}
+
+#about hr{
+    border-top: 2px solid #ffffff;
+}
+
+#about p{
+    margin-left:100px;
+}
+
+/***** CONTACT SECTION *****/
+
+#contact{
+    color: #ffffff;
+    background: #095156;
+}
+
+#contact .full-width{
+    /* border-style:solid; */
+    border-width: 0 1px 0;
+    padding: 0px 100px 25px;
+}
+
+#contact #left-col{
+    font-size:28px;
+    font-weight:lighter;
+    line-height:38px;
+}
+
+#contact #right-col{
+    font-size:30px;
+    line-height:41px;
+}
+
+#contact ul {
+    list-style: none;
+    float:right;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    margin-left: 40px;
+}
+
+#contact a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-text:hover{
+    transition-duration:0.4s;
+}
+
+.contact-text:hover{
+    font-size:34px;
+}
+
+.contact-img:hover{
+    width: 55px;
+    height:55px;
+}
+
+/***** FOOTER NAV *****/
+
+#footer-nav{
+    background: #095156;
+}
+
+#footer-nav nav ul{
+    list-style:none;
+    text-align: center;
+}
+
+#footer-nav nav ul li{
+    display: inline-block;
+}
+
+#footer-nav nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    transition-duration:0.4s;
+}
+
+#footer-nav nav ul li a:hover{
+    font-size: 22px;
+}
+
+#footer-nav li{
+    color:white;
+}
+
+/***** FOOTER  *****/
+
+footer{
+    color: #ffffff;
+    text-align: center;
+    background: #095156;
+}
+
+footer .full-width{
+    padding: 0 100px;
+}
+
+footer p{
+    font-size: 14px;
+    margin: 0 auto;
+    line-height: normal;
+}
