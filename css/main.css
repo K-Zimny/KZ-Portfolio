@@ -372,16 +372,17 @@ background-size: cover;
 
 .contact-text:hover{
     transition-duration:0.4s;
-}
-
-.contact-text:hover{
     font-size:34px;
 }
 
-.contact-img:hover{
+.contact-text{
+    transition-duration:0.4s;
+}
+
+/* .contact-img:hover{
     width: 55px;
     height:55px;
-}
+} */
 
 /***** FOOTER NAV *****/
 
